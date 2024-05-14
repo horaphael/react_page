@@ -2,7 +2,7 @@
   "name": "mon-projet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://horaphael.github.io/react-app",
+  "homepage": "https://horaphael.github.io",
   "dependencies": {
     "@fontsource/lato": "^5.0.21",
     "@testing-library/jest-dom": "^5.17.0",
