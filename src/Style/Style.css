@@ -1,0 +1,578 @@
+h1 {
+  font-family: 'Indie Flower', cursive; /* Utiliser une police de caractères cursive pour un aspect de graffiti */
+  font-size: 30px; /* Taille de police plus grande pour un aspect audacieux */
+  color: #040404; /* Texte en orange */
+  bottom: 100px;
+  /* Ajoutez d'autres styles selon vos besoins */
+}
+
+li {
+  list-style-type: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.image-container {
+  position: relative;
+}
+
+/* Style.css */
+.banner {
+  position: absolute;
+  top: -275px; /* Déplace la bannière vers le haut de 50 pixels */
+  left: -10px;
+  width: 100.95%;
+  height: 45vh; /* 50% de la hauteur de la vue (viewport) */
+  z-index: 1;
+}
+
+.fond-gif {
+  position: absolute;
+  top: 148px; /* Déplace la bannière vers le haut de 50 pixels */
+  left: -10px;
+  width: 100.97%;
+  height: 85vh; /* 50% de la hauteur de la vue (viewport) */
+  z-index: 1;
+  opacity: 0.9; /* Définit l'opacité à 80% */
+}
+
+.circle-container {
+  z-index: 1;
+  display: flex;
+}
+
+.circle {
+  z-index: 2;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 2000px;
+  margin-left: 250px;
+  overflow: hidden;
+  background-color: #be006f;
+  transition: transform 0.3s;
+  background-image: url('../assets/header_background.jpg'); /* Chemin de votre image */
+  background-size: cover; /* Redimensionner l'image pour couvrir tout l'arrière-plan */
+  background-position: center;
+}
+
+.circle_text {
+  position: absolute;
+  top: 2150px;
+  margin-left: 200px;
+  color: #be005f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.circle_text2 {
+  position: absolute;
+  top: 2150px;
+  margin-left: 630px;
+  color: #be005f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.circle_text3 {
+  position: absolute;
+  top: 2150px;
+  margin-left: 1030px;
+  color: #be005f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.circle_text4 {
+  position: absolute;
+  top: 2150px;
+  margin-left: 1420px;
+  color: #be005f;
+  font-size: 30px;
+  text-align: center;
+}
+
+.team_banner {
+  position: absolute;
+  top: 1800px;
+  left: -10px;
+  width: 100.95%;
+  height: 1200px;
+  z-index: -1;
+  opacity: 71%;
+}
+
+.TeamTitle {
+  position: absolute;
+  top: 1800px;
+  left: 770px;
+  color: #e70c79;
+  font-size: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+.circle img {
+  margin-top: 100px;
+  margin-left: 75px;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  z-index: 3;
+}
+
+.circle:hover {
+  transform: scale(1.2);
+}
+
+.App-logo {
+  position: absolute;
+  top: 50px;
+  left: 3%;
+  transform: translate(-50%, -50%);
+  width: 7%;
+  z-index: 2;
+}
+
+.logo_bis {
+  position: absolute;
+  top: -120px; /* Centrer verticalement */
+  left: 50%; /* Centrer horizontalement */
+  transform: translate(-50%, -50%); /* Centrer l'image */
+  width: 50%;
+  z-index: 1; /* Placer le logo au-dessus de la bannière */
+}
+
+.header-banner {
+  /*border: 8px solid #f8b4dc; /* Bordure */
+  border-radius: 7px;
+  background-color: #f8b4dc;
+  background-image: url('../assets/header_background.jpg'); /* Image de fond */
+  background-size: cover; /* Ajuster la taille de l'image pour couvrir la boîte */
+  background-position: center;
+  position: absolute;
+  top: 25px;
+  left: 25%;
+  width: 1000px;
+  height: 46px;
+  font-size: 30px;
+  z-index: 2;
+}
+
+/* Style.css */
+.nav-link-home {
+  position: absolute;
+  text-decoration: none;
+  top: 50px; /* Déplace la navigation vers le bas de 50 pixels pour apparaître sur la bannière */
+  left: 29%;
+  transform: translate(-50%, -50%);
+  color: #080808;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.nav-link-about {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 72.98%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  color: #080808;
+  font-size: 30px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.nav-link-actus {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 38%;
+  z-index: 2;
+  transform: translate(-50%, -50%);
+  color: #080808;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.nav-link-rejoindre {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 43%;
+  transform: translate(10%, -50%);
+  z-index: 2;
+  color: #080808;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.nav-link-equipe {
+  text-decoration: none;
+  position: absolute;
+  top: 50px;
+  left: 56.3%;
+  transform: translate(10%, -50%);
+  z-index: 2;
+  color: #080808;
+  font-size: 30px;
+  cursor: pointer;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.nav-link-rejoindre:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+
+.nav-link-actus:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+
+.nav-link-about:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+
+.nav-link-home:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+
+.nav-link-home:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+.nav-link-equipe:hover {
+  text-shadow: 0 0 10px #be006f;
+  color: #be006f;
+  animation: hover 1s linear infinite;
+}
+
+@keyframes hover {
+  0% {
+    font-size: 30px;
+  }
+  20% {
+    font-size: 31px;
+  }
+  40% {
+    font-size: 32px;
+  }
+}
+
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.titre_accueil {
+  color: #f839a2;
+  font-size: 80px;
+  text-align: center;
+  position: absolute;
+  top: 260px;
+  left: 0%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
+  transform: translate(-50%, -50%);
+  width: 100%; /* Largeur de chaque élément de texte */
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  animation: float 5s linear infinite;
+  z-index: 2;
+  text-shadow: 0 0 60px #f839a2;
+}
+
+.texte_accueil {
+  color: #ff78c2;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 500px; /* Déplacer vers le haut de 50% de la hauteur de la fenêtre */
+  left: 50%; /* Déplacer vers la gauche de 50% de la largeur de la fenêtre */
+  transform: translate(-50%, -50%);
+  width: 100%; /* Largeur de chaque élément de texte */
+  white-space: nowrap; /* Empêcher le texte de passer à la ligne */
+  z-index: 2;
+  text-shadow: 0 0 10px #ff78c2;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.text {
+  position: absolute;
+  top: 1000px;
+  left: 810px;
+  color: #e70c79;
+  font-size: 60px;
+  align-items: center;
+  text-align: center;
+}
+
+
+.text2 {
+  position: absolute;
+  top: 1130px;
+  left: 200px;
+  color: #e70c79;
+  width: 80%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.banner_fin2 {
+  position: absolute;
+  top: 3000px;
+  left: -10px;
+  width: 100.95%;
+  height: 25vh;
+  z-index: 0;
+}
+
+.end-section {
+  position: absolute;
+  top: 3000px;
+  left: 50px;
+  color: #080808;
+  width: 80%;
+}
+
+.social-links {
+  position: absolute;
+  top: 90px;
+  left: -38px;
+  width: 80%;
+}
+
+.social-icons {
+  position: absolute;
+  top: 0px;
+  left: 820px;
+  color: #060606;
+  width: 50%;
+}
+
+.taille-icon {
+  position: absolute;
+  width: 2%;
+}
+
+.taille-icon {
+  position: relative;
+  width: 2%;
+}
+
+.taille-icon {
+  position: relative;
+  width: 2%;
+}
+
+.social-link-text {
+  position: relative;
+  left: 20px;
+  color: #020202;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-link-text2 {
+  position: relative;
+  left: 20px;
+  color: #050505;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.social-link-text3 {
+  position: relative;
+  left: 20px;
+  color: #040404;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-link-text4 {
+  position: relative;
+  left: 20px;
+  color: #040404;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.text-de-fin {
+  position: absolute;
+  top: 19px;
+  left: 1400px;
+  color: #030303;
+  width: 25%;
+  font-size: 20px;
+}
+
+.eco-index {
+  position: absolute;
+  top: 30px;
+  left: 1750px;
+  font-size: 20px;
+  z-index: 3;
+}
+
+header {
+  text-transform: uppercase;
+  margin: 10px 0;
+  font-family:
+    Open Sans,
+    Helvetica,
+    Arial,
+    sans-serif;
+  text-align: center;
+  font-variant-ligatures: common-ligatures;
+}
+
+.Subheader {
+  width: 550px;
+  background-color: rgb(255, 192, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px auto;
+  border-radius: 50px;
+  text-align: center;
+  padding: 30px;
+}
+
+.Subheader_img {
+  width: 500px;
+}
+
+.Subheader_title {
+  font-size: xx-large;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+}
+
+.rectangle {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: center;
+  height: auto;
+  align-items: center;
+  text-align: center;
+  background: whitesmoke;
+}
+
+.police {
+  margin: 50px 0;
+  font-family:
+    URW Chancery L, cursive;
+  font-weight: 300;
+  margin-top: 0;
+  color: #252525;
+  font-variant-ligatures: common-ligatures;
+}
+
+.bg {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  height: 800%;
+  width: 60%;
+}
+
+.li {
+  align-items: center;
+  justify-content: center;
+  text-align: -webkit-match-parent;
+  display: flex;
+}
+
+.img {
+  position: absolute;
+  top: 2550px;
+  width: 90%;
+}
+
+.coInput {
+  position: absolute;
+  top: 0px;
+  left: 70%;
+  width: 30%;
+  font-size: 500%;
+}
+
+.emailInput {
+  position: relative;
+  top: 250px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.passInput {
+  position: relative;
+  top: 300px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.connectInput {
+  position: relative;
+  top: 350px;
+  left: 70%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.accInput {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 20%;
+  font-size: 200%;
+}
+
+.sinscrirInput {
+  position: relative;
+  top: 500px;
+  left: 70%;
+  width: 20%;
+  font-size: 150%;
+}
+
+.login {
+  position: absolute;
+  top: 0px;
+  left: 0%;
+  width: 100%; /* Largeur du conteneur login */
+  height: 940px; /* Hauteur du conteneur login */
+}
