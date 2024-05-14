@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5223b1b0.css",
+    "main.js": "/static/js/main.76202da8.js",
+    "static/media/mathiscoutaye.jpg": "/static/media/mathiscoutaye.93823ec850a7f2c9ef49.jpg",
+    "static/media/test.gif": "/static/media/test.4783f7dde0dfdd25b46e.gif",
+    "static/media/host.webp": "/static/media/host.fde01f4372732eeaf118.webp",
+    "static/media/img.png": "/static/media/img.cf8b3db511494c0cbb0c.png",
+    "static/media/login.png": "/static/media/login.097ccee367c10dc7e16c.png",
+    "static/media/logo_webcup.webp": "/static/media/logo_webcup.39308fa235fa8546977c.webp",
+    "static/media/icon-insta.webp": "/static/media/icon-insta.5a3b9c616fd2387183f7.webp",
+    "static/media/icon-Webcup.png": "/static/media/icon-Webcup.ed282048080bd0c17afc.png",
+    "static/media/raphael_hoarau.jpg": "/static/media/raphael_hoarau.d72d7080a8f9831f8f8f.jpg",
+    "static/media/mael_mangata.webp": "/static/media/mael_mangata.e934b745a0fec01bda40.webp",
+    "static/media/alex_ahyane.webp": "/static/media/alex_ahyane.aa7d6cf333b3dc6fe3a6.webp",
+    "static/media/twitter.webp": "/static/media/twitter.2926eb48f3a56cf1e2ac.webp",
+    "index.html": "/index.html",
+    "main.5223b1b0.css.map": "/static/css/main.5223b1b0.css.map",
+    "main.76202da8.js.map": "/static/js/main.76202da8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5223b1b0.css",
+    "static/js/main.76202da8.js"
+  ]
+}
